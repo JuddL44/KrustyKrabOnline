@@ -1,0 +1,83 @@
+####################################
+# OS / Editor
+####################################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+####################################
+# .NET / Visual Studio
+####################################
+bin/
+obj/
+.vs/
+TestResults/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+####################################
+# ASP.NET Core
+####################################
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json.user
+secrets.json
+*.pfx
+*.cer
+
+####################################
+# Entity Framework
+####################################
+Migrations/*.Designer.cs
+Migrations/*.csproj.user
+
+####################################
+# Node / Angular
+####################################
+node_modules/
+dist/
+out-tsc/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+####################################
+# Angular environment files
+####################################
+environment.ts
+environment.prod.ts
+environment.*.ts
+
+####################################
+# Build / Cache
+####################################
+.cache/
+.eslintcache
+.angular/
+.vite/
+
+####################################
+# Logs
+####################################
+*.log
+logs/
+
+####################################
+# Misc
+####################################
+.env
+.env.*
+!.env.example
